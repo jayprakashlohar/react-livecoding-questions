@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Counter components css */
+.counterDiv {
+  border: 1px solid teal;
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  padding: 50px;
+}
+button {
+  padding: 7px 25px;
+  margin: 30px 0px 0px 10px ;
+  cursor: pointer;
+  background-color: teal;
+  color: #ffff;
+  border: none;
+  border-radius: 4px;
+}
+
+
