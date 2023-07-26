@@ -1,10 +1,14 @@
 import Counter from "../components/Counter/Counter";
+import InfiniteScroll from "../components/InfiniteScroll/InfiniteScroll";
+import TodoApp from "../components/TodoApp/TodoApp";
 
 const Home = () => {
   return (
     <>
       <div>
-        <Counter />
+        {/* <Counter /> */}
+        <TodoApp />
+        {/* <InfiniteScroll/> */}
       </div>
     </>
   );
