@@ -5,7 +5,6 @@ const TodoApp = () => {
   const [inputValue, setInputValue] = useState("");
   const [editvalue, setEditValue] = useState(-1);
 
-
   const handleClick = (event) => {
      event.preventDefault()
      if(editvalue === -1) {
@@ -19,7 +18,6 @@ const TodoApp = () => {
      setInputValue('')
   };
 
-
   const handleEdit = (index) => {
     const itemEdit = todos[index]
     setInputValue(itemEdit)
@@ -31,7 +29,6 @@ const TodoApp = () => {
      newtodo.splice(index,1) 
      setTodos(newtodo)
   }
-
 
 
   return (
