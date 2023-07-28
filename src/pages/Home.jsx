@@ -1,8 +1,9 @@
 // import Counter from "../components/Counter/Counter";
 // import InfiniteScroll from "../components/InfiniteScroll/InfiniteScroll";
 // import TodoApp from "../components/TodoApp/TodoApp";
+// import Timer from "../components/TImer/Timer";
 
-import Timer from "../components/TImer/Timer";
+import PasswordStrengthChecker from "../components/PasswordStrengthChecker/PasswordStrengthChecker";
 
 const Home = () => {
   return (
@@ -11,7 +12,8 @@ const Home = () => {
         {/* <Counter /> */}
         {/* <TodoApp /> */}
         {/* <InfiniteScroll/> */}
-        <Timer/>
+        {/* <Timer/> */}
+        <PasswordStrengthChecker/>
       </div>
     </>
   );
