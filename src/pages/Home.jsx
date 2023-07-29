@@ -2,8 +2,9 @@
 // import InfiniteScroll from "../components/InfiniteScroll/InfiniteScroll";
 // import TodoApp from "../components/TodoApp/TodoApp";
 // import Timer from "../components/TImer/Timer";
+// import PasswordStrengthChecker from "../components/PasswordStrengthChecker/PasswordStrengthChecker";
 
-import PasswordStrengthChecker from "../components/PasswordStrengthChecker/PasswordStrengthChecker";
+import ChangeColor from "../components/ChangeColor/ChangeColor";
 
 const Home = () => {
   return (
@@ -13,7 +14,8 @@ const Home = () => {
         {/* <TodoApp /> */}
         {/* <InfiniteScroll/> */}
         {/* <Timer/> */}
-        <PasswordStrengthChecker/>
+        {/* <PasswordStrengthChecker/> */}
+        <ChangeColor/>
       </div>
     </>
   );
