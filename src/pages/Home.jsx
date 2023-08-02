@@ -4,7 +4,9 @@
 // import Timer from "../components/TImer/Timer";
 // import PasswordStrengthChecker from "../components/PasswordStrengthChecker/PasswordStrengthChecker";
 // import ChangeColor from "../components/ChangeColor/ChangeColor";
-import Calculator from "../components/Calculator/Calculator";
+// import Calculator from "../components/Calculator/Calculator";
+
+import Carosel from "../components/Slider/Carousel";
 
 const Home = () => {
   return (
@@ -16,7 +18,8 @@ const Home = () => {
         {/* <Timer/> */}
         {/* <PasswordStrengthChecker/> */}
         {/* <ChangeColor/> */}
-        <Calculator />
+        {/* <Calculator /> */}
+        <Carosel />
       </div>
     </>
   );
