@@ -5,8 +5,9 @@
 // import PasswordStrengthChecker from "../components/PasswordStrengthChecker/PasswordStrengthChecker";
 // import ChangeColor from "../components/ChangeColor/ChangeColor";
 // import Calculator from "../components/Calculator/Calculator";
+// import Carosel from "../components/Slider/Carousel";
 
-import Carosel from "../components/Slider/Carousel";
+import RefHook from "../components/Hooks/RefHook";
 
 const Home = () => {
   return (
@@ -19,7 +20,8 @@ const Home = () => {
         {/* <PasswordStrengthChecker/> */}
         {/* <ChangeColor/> */}
         {/* <Calculator /> */}
-        <Carosel />
+        {/* <Carosel /> */}
+        <RefHook/>
       </div>
     </>
   );
