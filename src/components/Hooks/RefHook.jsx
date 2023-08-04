@@ -2,7 +2,7 @@
 // It can be used to store a mutable value that does not cause a re-render when updated.
 // It can be used to access a DOM element directly.
 
-import { useEffect } from "react";
+// import { useEffect } from "react";
 import { useRef } from "react";
 
 // Accessing DOM elements

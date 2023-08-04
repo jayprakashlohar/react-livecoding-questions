@@ -6,8 +6,8 @@
 // import ChangeColor from "../components/ChangeColor/ChangeColor";
 // import Calculator from "../components/Calculator/Calculator";
 // import Carosel from "../components/Slider/Carousel";
-
-import RefHook from "../components/Hooks/RefHook";
+// import RefHook from "../components/Hooks/RefHook";
+import MySwitch from "../components/ToggleSwitch/MySwitch";
 
 const Home = () => {
   return (
@@ -21,7 +21,8 @@ const Home = () => {
         {/* <ChangeColor/> */}
         {/* <Calculator /> */}
         {/* <Carosel /> */}
-        <RefHook/>
+        {/* <RefHook/> */}
+        <MySwitch/>
       </div>
     </>
   );
