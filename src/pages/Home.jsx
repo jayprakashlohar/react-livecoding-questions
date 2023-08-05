@@ -7,7 +7,11 @@
 // import Calculator from "../components/Calculator/Calculator";
 // import Carosel from "../components/Slider/Carousel";
 // import RefHook from "../components/Hooks/RefHook";
-import MySwitch from "../components/ToggleSwitch/MySwitch";
+// import MySwitch from "../components/ToggleSwitch/MySwitch";
+// import ThrottledComponent from "../components/CustomHook/ThrottledComponent";
+// import MyRating from "../components/StarRating/MyRating";
+import MyProgress from "../components/ProgressBar/MyProgress";
+
 
 const Home = () => {
   return (
@@ -22,7 +26,10 @@ const Home = () => {
         {/* <Calculator /> */}
         {/* <Carosel /> */}
         {/* <RefHook/> */}
-        <MySwitch/>
+        {/* <MySwitch/> */}
+        {/* <ThrottledComponent/> */}
+        {/* <MyRating/> */}
+        <MyProgress/>
       </div>
     </>
   );
