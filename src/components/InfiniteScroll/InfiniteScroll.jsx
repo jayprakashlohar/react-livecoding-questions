@@ -28,8 +28,8 @@ const InfiniteScroll = () => {
     if (
       window.innerHeight + document.documentElement.scrollTop ===
       document.documentElement.offsetHeight
-    ) {
-    }
+    ) 
+    
   };
   useEffect(() => {
     fetchData();

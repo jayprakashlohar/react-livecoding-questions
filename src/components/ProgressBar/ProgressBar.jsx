@@ -53,7 +53,7 @@ const ProgressBar = ({ progress, direction, onProgressComplete }) => {
 };
 
 ProgressBar.propTypes = {
-  progress: propTypes.Number,
+  progress: propTypes.number,
   direction: propTypes.string,
   onProgressComplete:propTypes.func
 };
