@@ -6,12 +6,12 @@
 // import ChangeColor from "../components/ChangeColor/ChangeColor";
 // import Calculator from "../components/Calculator/Calculator";
 // import Carosel from "../components/Slider/Carousel";
-// import RefHook from "../components/Hooks/RefHook";
+// import RefHook from "../components/Hooks/UseRef/RefHook";
 // import MySwitch from "../components/ToggleSwitch/MySwitch";
 // import ThrottledComponent from "../components/CustomHook/ThrottledComponent";
 // import MyRating from "../components/StarRating/MyRating";
-import MyProgress from "../components/ProgressBar/MyProgress";
-
+// import MyProgress from "../components/ProgressBar/MyProgress";
+import UseCallBackHook from "../components/Hooks/UseCallBack/UseCallBackHook";
 
 const Home = () => {
   return (
@@ -29,7 +29,8 @@ const Home = () => {
         {/* <MySwitch/> */}
         {/* <ThrottledComponent/> */}
         {/* <MyRating/> */}
-        <MyProgress/>
+        {/* <MyProgress/> */}
+        <UseCallBackHook />
       </div>
     </>
   );
