@@ -11,7 +11,9 @@
 // import ThrottledComponent from "../components/CustomHook/ThrottledComponent";
 // import MyRating from "../components/StarRating/MyRating";
 // import MyProgress from "../components/ProgressBar/MyProgress";
-import UseCallBackHook from "../components/Hooks/UseCallBack/UseCallBackHook";
+// import UseCallBackHook from "../components/Hooks/UseCallBack/UseCallBackHook";
+
+import UseMemoHook from "../components/Hooks/UseMemo/UseMemoHook";
 
 const Home = () => {
   return (
@@ -30,7 +32,8 @@ const Home = () => {
         {/* <ThrottledComponent/> */}
         {/* <MyRating/> */}
         {/* <MyProgress/> */}
-        <UseCallBackHook />
+        {/* <UseCallBackHook /> */}
+        <UseMemoHook />
       </div>
     </>
   );
