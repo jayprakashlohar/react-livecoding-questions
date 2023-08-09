@@ -12,8 +12,9 @@
 // import MyRating from "../components/StarRating/MyRating";
 // import MyProgress from "../components/ProgressBar/MyProgress";
 // import UseCallBackHook from "../components/Hooks/UseCallBack/UseCallBackHook";
+// import UseMemoHook from "../components/Hooks/UseMemo/UseMemoHook";
 
-import UseMemoHook from "../components/Hooks/UseMemo/UseMemoHook";
+import UseReducerHook from "../components/Hooks/UseReducer/UseReducerHook";
 
 const Home = () => {
   return (
@@ -33,7 +34,8 @@ const Home = () => {
         {/* <MyRating/> */}
         {/* <MyProgress/> */}
         {/* <UseCallBackHook /> */}
-        <UseMemoHook />
+        {/* <UseMemoHook /> */}
+        <UseReducerHook/>
       </div>
     </>
   );
