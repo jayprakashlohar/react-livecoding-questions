@@ -13,8 +13,8 @@
 // import MyProgress from "../components/ProgressBar/MyProgress";
 // import UseCallBackHook from "../components/Hooks/UseCallBack/UseCallBackHook";
 // import UseMemoHook from "../components/Hooks/UseMemo/UseMemoHook";
-
-import UseReducerHook from "../components/Hooks/UseReducer/UseReducerHook";
+import CenterDiv from "../components/CenterTheDiv/CenterDiv";
+// import UseReducerHook from "../components/Hooks/UseReducer/UseReducerHook";
 
 const Home = () => {
   return (
@@ -35,7 +35,8 @@ const Home = () => {
         {/* <MyProgress/> */}
         {/* <UseCallBackHook /> */}
         {/* <UseMemoHook /> */}
-        <UseReducerHook/>
+        {/* <UseReducerHook/> */}
+        <CenterDiv />
       </div>
     </>
   );
