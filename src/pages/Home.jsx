@@ -13,8 +13,10 @@
 // import MyProgress from "../components/ProgressBar/MyProgress";
 // import UseCallBackHook from "../components/Hooks/UseCallBack/UseCallBackHook";
 // import UseMemoHook from "../components/Hooks/UseMemo/UseMemoHook";
-import CenterDiv from "../components/CenterTheDiv/CenterDiv";
+// import CenterDiv from "../components/CenterTheDiv/CenterDiv";
 // import UseReducerHook from "../components/Hooks/UseReducer/UseReducerHook";
+
+import TodoListApp from "../components/TodoApp/TodoListApp";
 
 const Home = () => {
   return (
@@ -36,7 +38,8 @@ const Home = () => {
         {/* <UseCallBackHook /> */}
         {/* <UseMemoHook /> */}
         {/* <UseReducerHook/> */}
-        <CenterDiv />
+        {/* <CenterDiv /> */}
+        <TodoListApp/>
       </div>
     </>
   );
