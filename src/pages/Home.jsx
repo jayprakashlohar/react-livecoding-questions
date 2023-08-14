@@ -16,7 +16,9 @@
 // import CenterDiv from "../components/CenterTheDiv/CenterDiv";
 // import UseReducerHook from "../components/Hooks/UseReducer/UseReducerHook";
 
-import TodoListApp from "../components/TodoApp/TodoListApp";
+import FetchData from "../components/FetchApi/FetchData";
+
+// import TodoListApp from "../components/TodoApp/TodoListApp";
 
 const Home = () => {
   return (
@@ -39,7 +41,8 @@ const Home = () => {
         {/* <UseMemoHook /> */}
         {/* <UseReducerHook/> */}
         {/* <CenterDiv /> */}
-        <TodoListApp/>
+        {/* <TodoListApp/> */}
+        <FetchData/>
       </div>
     </>
   );
