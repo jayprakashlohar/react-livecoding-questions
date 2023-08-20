@@ -15,10 +15,10 @@
 // import UseMemoHook from "../components/Hooks/UseMemo/UseMemoHook";
 // import CenterDiv from "../components/CenterTheDiv/CenterDiv";
 // import UseReducerHook from "../components/Hooks/UseReducer/UseReducerHook";
-
-import FetchData from "../components/FetchApi/FetchData";
-
+// import FetchData from "../components/FetchApi/FetchData";
 // import TodoListApp from "../components/TodoApp/TodoListApp";
+
+import RandomData from "../components/Debouunce/RandomData";
 
 const Home = () => {
   return (
@@ -42,7 +42,8 @@ const Home = () => {
         {/* <UseReducerHook/> */}
         {/* <CenterDiv /> */}
         {/* <TodoListApp/> */}
-        <FetchData/>
+        {/* <FetchData/> */}
+         <RandomData/>
       </div>
     </>
   );
